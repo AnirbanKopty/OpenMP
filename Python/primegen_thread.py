@@ -3,8 +3,8 @@
 import threading
 from sympy import sieve
 
-import os
-os.chdir('C:\\Users\\sapta\\Downloads\\Anirban')
+# import os
+# os.chdir('C:\\Users\\sapta\\Downloads\\Anirban')
 
 import time
 
@@ -32,4 +32,6 @@ for thread in threads:
 
 finishtime = time.perf_counter()
 
-file.write(f'\n\n\n\nThe script finished in {finishtime - starttime} secs')
+print(f'\n\n\n\nThe script finished in {finishtime - starttime} secs')
+
+# The script finished in 77.4185289 secs

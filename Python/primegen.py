@@ -1,7 +1,7 @@
 from sympy import sieve
 
-import os
-os.chdir('C:\\Users\\sapta\\Downloads\\Anirban')
+# import os
+# os.chdir('C:\\Users\\sapta\\Downloads\\Anirban')
 
 import time
 
@@ -16,6 +16,6 @@ for i in sieve.primerange(0,n):
 
 finishtime = time.perf_counter()
 
-file.write(f'\n\n\n\nThe script finished in {finishtime - starttime} secs')
+print(f'\n\n\n\nThe script finished in {finishtime - starttime} secs')
 
 # 35.8870287 sec for [0,10**8) prime number generation and storing that in the text
